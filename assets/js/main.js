@@ -18,7 +18,7 @@ function playMusic() {
 
     music.src = `assets/musics/${musicTheme}`
     music.play()
-    music.volume = 0.2
+    music.volume = 0.3
 }
 
 btnInventerMundos.addEventListener('click', () => {
