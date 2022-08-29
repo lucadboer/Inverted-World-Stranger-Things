@@ -22,7 +22,7 @@ header::before {
   background-size: cover;
   background-position: center 90%;
   filter: saturate(0);
-  opacity: 0.4;
+  opacity: 0.35;
 }
 
 .header-content {
@@ -312,15 +312,28 @@ footer::after {
 }
 
 .swal-modal {
-  background-color: var(--primary-color);
+  background-color: red;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.692);
 }
 
 .swal-button {
-  background-color: var(--primary-color-contrast);
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.swal-title {
+  color: black;
+  font-family: var(--featured-font-family);
+  font-weight: normal;
+  text-shadow: 0.5px 1px 1px var(--primary-color-contrast);
+  letter-spacing: 1.5px;
 }
 
 .swal-text {
   color: white;
+  font-size: 19px;
 }
 
 /* https://sweetalert.js.org/docs/ */

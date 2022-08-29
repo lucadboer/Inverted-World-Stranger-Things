@@ -107,16 +107,16 @@
           <div class="form-container">
             <form id="form-DeD">
               <label for="name">Nome Completo</label>
-              <input type="text" name="name" id="txtName" required>
+              <input type="text" name="name" id="txtName" placeholder="Dustin Henderson" required>
           
               <label for="email">E-mail</label>
-              <input type="email" name="email" id="txtEmail" required>
+              <input type="email" name="email" id="txtEmail" placeholder="dustin.henderson@exemplo.com" required>
           
               <label for="level">Level</label>
-              <input type="number" name="level" id="txtLevel" required>
+              <input type="number" name="level" id="txtLevel" min="1" value="1" required>
           
               <label for="character">Personagem</label>
-              <textarea name="character" cols="30" rows="10" id="txtCharacter" required></textarea>
+              <textarea name="character" cols="30" rows="10" id="txtCharacter" minlength="4" placeholder="Elfo, Mago, Ladino, Bardo, Bárbaro" required></textarea>
             
               <button type="submit" id="btnSubscribe">Me inscrever</button>
             </form>
@@ -130,7 +130,6 @@
         Projeto construído para fins didáticos, com o objetivo de colocar em
         prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO.
       </p>
-      <img src="assets/images/footer/logo.svg" alt="">
     </footer>
 
   </body>

@@ -42,7 +42,7 @@ function enviarFormulario() {
     formDeD.addEventListener('submit', async (e) => {
         e.preventDefault()
         subscribeToHellfireClub(subscribes) 
-        swal("Player cadastrado!", "", "success")
+        swal("Player cadastrado!", "Se prepare, o Vecna está chegando...")
         .then(() => {
             txtName.value = ''
             txtEmail.value = ''
