@@ -46,7 +46,7 @@ function enviarFormulario() {
         .then(() => {
             txtName.value = ''
             txtEmail.value = ''
-            txtLevel.value = ''
+            txtLevel.value = 1
             txtCharacter.value = ''
         })
     })
